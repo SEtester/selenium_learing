@@ -23,6 +23,7 @@ class LoginCase(unittest.TestCase):
 
     # 封装定位方法CSS
     def by_css(self,css):
+        # pass
         locator = (By.CSS_SELECTOR,css)
         #加一个显式等待
         self.explicit_wait_element(locator)
